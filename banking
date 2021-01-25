@@ -1,0 +1,37 @@
+
+
+
+from tkinter import *
+master  = Tk()
+
+class Account:
+	def __init__(self):
+		self._balance = balance
+	
+	def Account():
+		balance = 0.00
+	
+	def deposit(amount):
+	    balance = balance + amount
+	
+    def withdrawal(amount):
+        balance = balance - amount
+
+class Account:
+    def __init__(self):
+        self.balance = balance
+        self.amount
+    def account():
+        balance = 0.00
+    
+    def deposit(amount):
+        balance = balance + amount
+    
+    def withdrawal(amount):
+        balance = balance - amount
+    
+    def getBalance():
+        return balance
+    
+account1 = Account()
+account1.deposit(500)

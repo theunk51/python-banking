@@ -1,0 +1,12 @@
+import mysql.connector
+\# sqlite3 is a PSL (Python Standard Library) used for creating databases. Although it doesn't require an SQL sevre, it lacks advanced functionality
+
+import sqlite3
+
+# creates he database and connection
+connection = sqlite3.connect('accounts.db')
+
+#creates a cursor object
+crs = connection.cursor()
+
+https://repl.it/talk/ask/Python-SQL/33436
